@@ -1,0 +1,33 @@
+@include tablet{
+    .seccion-noticias{
+        @include grid(2, 2rem);
+    }
+}
+
+.contenedor-noticia{
+    background-color: $blanco;
+    border: 1px solid $gris;
+    border-radius: 1rem;
+    margin-top: 2rem;
+
+    img{
+        border-radius: 1rem;
+    }
+}
+
+.texto-noticia{
+    padding: 2rem;
+    text-align: center;
+    h4{
+        font-size: 1.8rem;
+        font-weight: $regular;
+      
+    
+    }
+    
+    a{
+        margin-top: 0;
+       
+    }
+    
+}

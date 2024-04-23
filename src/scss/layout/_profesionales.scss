@@ -1,0 +1,36 @@
+
+@include tablet{
+    .contenedor-profesionales{
+        @include grid (3, 1rem);
+        margin: auto;
+    }
+}
+
+    
+
+.profesional{
+    margin-top: 2rem;
+    
+
+    @include tablet{
+        margin-top: auto;
+    }
+    
+        img{
+            border-radius: 50%;
+            clip-path: circle(50%);
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+    
+        h4{
+            margin-top: 0;
+            text-align: center;
+            
+        }
+        
+        a{
+            text-align: center;
+        }
+    }

@@ -1,0 +1,21 @@
+.imagen-contacto{
+    background-image: url(../img/contactar.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: $separacion 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-size: 4rem;
+        font-weight: $bold;
+        color:  $blanco;
+    }
+
+    p{
+        color: $blanco;
+        font-size: 2rem;
+    }
+
+}

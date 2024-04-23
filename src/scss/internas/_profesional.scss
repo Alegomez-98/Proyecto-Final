@@ -1,0 +1,71 @@
+@include tablet{
+    .contenedor-profesional{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3rem;
+       
+    }
+}
+
+.texto-profesional{
+    h3{
+        font-weight: $bold;
+        background-color: $azul;
+        color: $blanco;
+      
+        
+    }
+
+    h4{
+        margin-top: 4rem;
+        font-weight: $regular;
+    }
+
+    p{
+        font-size: 2.2rem;
+    }
+}
+
+@include tablet{
+    .contenedor-asesoria{
+        @include grid(3, 2rem)
+    }
+}
+
+
+.asesoria{
+    border-radius: 1rem;
+    border: .5px solid lighten($azul, 5);
+    margin-bottom: 2rem;
+    
+    
+
+
+    h3{
+        font-size: 2.7rem;
+        background-color: $azul;
+        border-radius: .6rem .6rem 0 0;
+        height: 10rem;
+        text-align: center;
+        margin-top: 0;
+        color: $blanco;
+        margin-bottom: 1rem;
+        max-width: 1000rem;
+        
+
+        
+    }
+
+    h4{
+        margin-top: 0;
+       margin-bottom: 1rem;
+       text-align: center;
+    }
+
+    
+   
+    ul{
+        list-style: none;   
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,178 @@
+.contenedor-admin {
+    width: 95%;
+    max-width: 160rem;
+    margin: 0 auto;
+}
+
+.botones-admin{
+    text-align: center;
+}
+
+.alerta {
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+
+
+
+    &.error{
+        background-color: $rojo;
+    }
+
+    &.exito{
+        background-color: $verde;
+    }
+}
+
+table.servicios{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        background-color: $azul;
+        
+        th{
+            color: $blanco;
+            padding: 2rem;
+            
+        }
+    }
+
+    tbody{
+        tr{
+            margin-bottom: 2rem;
+            
+        }
+    }
+    .imagen-tabla{
+        width: 5rem;
+    }
+   
+}
+
+
+
+.imagen-small{
+    width: 20rem;
+}
+
+table.profesionales{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    
+
+    thead{
+        background-color: $azul;
+         
+        th{
+            color: $blanco;
+            padding: 2rem;
+            
+        }
+    }
+
+    tbody{
+        tr{
+            margin-bottom: 2rem;
+            
+        }
+    }
+
+    .imagen-tabla{
+        width: 5rem;
+    }
+   
+}
+
+table.noticias{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        background-color: $azul;
+        
+        
+        th{
+            color: $blanco;
+            padding: 2rem;
+            
+        }
+    }
+
+
+   
+    .imagen-tabla{
+        width: 5rem;
+    }
+   
+}
+
+table.blog{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        background-color: $azul;
+        
+        th{
+            color: $blanco;
+            padding: 2rem;
+            
+        }
+    }
+
+    tbody{
+        tr{
+            margin-bottom: 2rem;
+            
+        }
+    }
+
+  
+    .imagen-tabla{
+        width: 5rem;
+    }
+   
+}
+
+table.productos{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        background-color: $azul;
+        
+        th{
+            color: $blanco;
+            padding: 2rem;
+            
+        }
+    }
+
+    tbody{
+        tr{
+            margin-bottom: 2rem;
+            
+        }
+    }
+
+
+    .imagen-tabla{
+        width: 5rem;
+    }
+   
+}
+
+.tabla-admin{
+    display: block;
+    text-align: center;
+    width: 80%;
+}

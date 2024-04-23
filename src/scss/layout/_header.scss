@@ -1,0 +1,29 @@
+.header{
+    background-color: #006767;
+    padding: 1rem 0 3rem 0 ;
+  
+
+    &.inicio{
+        .contenido-header{
+            @include tablet{
+                min-height: 15rem;
+            }
+    }
+
+}
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    h1{
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+    }
+
+}

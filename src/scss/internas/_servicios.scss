@@ -1,0 +1,24 @@
+@include tablet{
+    .iconos-servicios{
+        @include grid(4, 1rem);
+       
+    }
+}
+
+.iconos-servicios{
+    margin-top: 5rem;
+
+    .icono{
+        p{
+            font-size: 1.8rem;
+        }
+        
+    }
+}
+
+.texto-servicios{
+    a{
+        display: block;
+        text-align: center;
+    }
+}

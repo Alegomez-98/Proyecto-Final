@@ -1,0 +1,36 @@
+@include tablet{
+    .contenedor-noticias{
+        @include grid(3, 2rem);
+    }
+}
+
+.noticia{
+    background-color: lighten(#006767, 5);
+    border: 1px solid lighten($grisOscuro, 5);
+    margin-top: 2rem;
+
+    @include tablet{
+        height: 63rem;
+
+    }
+    
+
+    @include tablet{
+        margin-top: auto;
+    }
+
+    .contenido-noticia{
+        padding: 2rem;
+        text-align: center;
+      
+    }
+
+    h4{
+        margin: 0;
+        color: $blanco;
+        font-weight: $regular;
+    }
+
+   
+}
+

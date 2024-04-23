@@ -1,0 +1,65 @@
+.dark-mode{
+    background-color: darken($grisOscuro, 10);
+
+    p{
+        color: $blanco;
+    }
+
+    a, h1, h2, h3, h4{
+        color: $gris;
+    }
+
+    .icon{
+        filter: invert(100%);
+    }
+
+    .asesoria{
+        li{
+            color: $blanco;
+        }
+    }
+
+    .texto-noticia{
+        h4{
+            color: $negro;
+        }
+    }
+
+    .contenedor-noticia{
+        img{
+            border-radius: 1rem;
+        }
+    }
+
+    
+.imagen-noticia{
+
+    &::after{
+        content: "";
+        display: block;
+        width: 80rem;
+        height: .2rem;
+        background-color: $blanco;
+        margin-top: 1rem;
+        margin: auto;
+        margin-top: 2rem;
+       
+
+    }
+}
+
+.formulario{
+    legend, 
+    label, 
+    p{
+        color: $gris;
+    }
+    input:not([type = "submit"]),
+    textarea,
+    select{
+        background-color: $grisOscuro;
+        color: $blanco;
+        border: 1px solid $grisOscuro;
+    }
+}
+}

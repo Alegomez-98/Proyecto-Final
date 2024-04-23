@@ -1,0 +1,14 @@
+.acciones{
+    margin-top: $separacion;
+    @include tablet{
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        color: $negro;
+        display: block;
+        margin-bottom: calc($separacion/2);
+        text-align: center;
+    }
+}
+
